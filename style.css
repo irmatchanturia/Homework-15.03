@@ -1,18 +1,27 @@
+ @font-face {
+    font-family: "h2-font";
+    src: url("/fonts/Nunito-VariableFont_wght.ttf") format("opentype");
+}
 form {
-    /* display: inline-block; */
-    width: 600px;  
+    width: 600px; 
+    height: 600px;
     margin: auto; 
     margin-top: 50px;
     background-color: white;
-    height: 600px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
+
 body{
     background: linear-gradient(to right, rgb(35, 132, 250), rgba(225, 26, 225, 0.788));
 }
+
 h2{
-text-align: center;
-color: white;
-background-color: black;
-border-radius: 5px 5px 0 0;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+    font-family: "h2-font";
+    font-weight: 300;
 }
+

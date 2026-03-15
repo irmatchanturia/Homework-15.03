@@ -9,24 +9,32 @@
 <body>
     <form>
         <h2>EVENT REGISTRATION FORM</h2>
-       <label for="firstName">Name</label>
-       <input type="text">
-       <input type="text" name="firstName" id="firstName">
-       <label for="#">company</label>
-       <input type="text">
-       <label for="email">Email</label>
-       <input type="email" id="email">
-       <label for="phone">Phone</label>
-       <input type="number">
-       <input type="number">
-       <label for="subject">Subject</label>
-       <select name="subject" id="subject" placeholder="Choose Option">
-       </select>
-       <label for="question">Are you an existing customer?</label>
-       <input type="radio" checked> Yes
-       <input type="radio"> No
-       <label for="button"></label>
-       <input type="button">REGISTER
+        <label for="first-name">Name</label>
+        <input type="text" id="first-name" required>
+        <input type="text" id="last-name" required>
+
+        <label for="company">company</label>
+        <input type="text" id="company" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="example@gmail.com" required>
+
+        <label for="area-code">Phone</label>
+        <input type="number" id="area-code"required>
+        <input type="number" id="phone-number" required>
+
+        <label for="subject">Subject</label>
+        <select name="subject" id="subject" >
+            <option selected disabled>Choose Option</option>
+        </select>
+
+        <label for="question">Are you an existing customer?</label>
+        <label>Yes</label>
+        <input type="radio" name="choice" checked> 
+        <label>No</label>
+        <input type="radio" name="choice">
+
+        <button type="submit">REGISTER</button>
     </form>
     
 </body>
