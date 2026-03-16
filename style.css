@@ -2,7 +2,7 @@
     font-family: "font";
     src: url("/fonts/Nunito-VariableFont_wght.ttf") format("opentype");
 }
-form {
+.form-container {
     width: 600px; 
     height: 600px;
     margin: auto; 
@@ -33,3 +33,5 @@ button {
     padding: 10px 25px;
     font-weight: 600;
 }
+
+
