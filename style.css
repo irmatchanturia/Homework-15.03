@@ -40,6 +40,9 @@ button {
 label{
     display: inline-block;
     width: 20%;
+    vertical-align: top;
+    padding-top: 15px;
+
 }
 
 input, select {
@@ -52,14 +55,17 @@ input, select {
 
 #first-name, #last-name, #area-code, #phone-number {
     display: inline-block;
-    width: 30%;
     margin-right: 20px;
 }
-#area-code{
-    width: 10%;
+#last-name{
+    width: 83%;
 }
+#area-code{
+    width: 50px;
+}
+
 #phone-number{
-    width: 50%;
+    width: 288px;
 }
 
 #company, #email {
@@ -82,4 +88,12 @@ input, select {
     margin: 10px 0 10px 0;
 
 }
+.subtitle{
+    margin: 0;
+    color: gray;
+    font-size: small;
 
+}
+.field{
+    display: inline-block;
+}
